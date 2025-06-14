@@ -5,7 +5,6 @@ import 'package:lottie/lottie.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
-
   @override
   State<HomeScreen> createState() => _HomeScreenState();
 }
@@ -21,7 +20,7 @@ class _HomeScreenState extends State<HomeScreen> {
     return Scaffold(
       appBar: AppBar(
         title: Text(
-          'Animated Emoji',
+          'Animated Emoji with Audio',
           style: TextStyle(color: Colors.white, fontSize: 20),
         ),
         centerTitle: true,

@@ -1,16 +1,20 @@
-# animation_emoji_load
+**# Lottie and Audio Player for Flutter**
 
-A new Flutter project.
+Lottie is a mobile library for Android and iOS that parses Adobe After Effects animations exported as json with Bodymovin and renders them natively on mobile!
 
-## Getting Started
+This repository is an unofficial conversion of the Lottie-android library in pure Dart.
 
-This project is a starting point for a Flutter application.
+It works on Android, iOS, macOS, linux, windows and web.
 
-A few resources to get you started if this is your first Flutter project:
+**# Usage:**
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+**## Simple animation**
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+This example shows how to display a Lottie animation in the simplest way.
+The Lottie widget will load the json file and run the animation indefinitely.
+Animation and Audio change Using GestureDetector.
+
+Here Some Snapshots of Animation Emoji Load App
+
+![snapshot2](https://github.com/user-attachments/assets/ac645afa-a671-4be0-911d-c43dfca680ec)
+![snapshot1](https://github.com/user-attachments/assets/7d5061e2-990e-4ab1-98c4-d2b475c25783)
